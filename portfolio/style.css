@@ -1,0 +1,142 @@
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    width: 1400px;
+}
+
+body{
+    background-color: #70D8DA;
+}
+
+
+h1{
+    padding-top: 50px;
+    padding-bottom: 90px;
+    margin-left: 30px;
+    font-size: 150px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    position: fixed;
+}
+    
+nav section{
+    list-style: none;
+    display: block;
+    text-align: center;
+    background-color: #C7C7C7;
+    height: 80px;
+}
+
+nav li{
+    line-height: 80px;
+    font-size: 30px;
+}
+
+ul a{
+    width: 33.33%;
+    text-decoration: none;
+    color: black;
+}
+
+ul section:hover{
+    color: black;
+    background-color: #949494;
+}
+
+ul section:active{
+    background-color: #EDEDED;
+}
+
+
+.name_flex{
+    display: flex;
+    justify-content: center;
+
+}
+
+.name{
+    padding: 70px;
+    background: white;
+    width: 70%;
+    margin: 100px;
+    border-radius: 70%;
+}
+
+.name h2{
+    text-align: center;
+    font-size: 90px;
+}
+
+.name p{
+    text-align: center;
+    font-size: 60px;
+}
+
+
+.sakuhin{
+    font-size: 60px;
+    padding-top: 90px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.sakuhin_flex{
+    display: flex;
+    margin: 30px;
+    margin-bottom: 80px;
+    width: 80%;
+    background-color: white;
+    align-items: center;
+}
+
+.sakuhin_flex img{
+    width: 300px;
+    height: 300px;
+    border: solid;
+}
+
+.sakuhin_flex p{
+    font-size: 25px;
+    line-height: 50px;   
+}
+
+
+.jikoshoukai{
+    font-size: 60px;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+
+.flex_shoukai{
+    background-color: white;
+    display: flex;
+    margin: 50px;
+    height: 330px;
+    width: 80%;
+    margin-bottom: 100px;
+}
+
+.flex_shoukai p{
+    font-size: 25px;
+    line-height: 50px;
+    border-bottom: dotted;
+    border-color: red;
+}
+
+.flex_shoukai img{
+    border-radius: 90%;
+    height: 200px;
+    width: 200px;
+    border: solid;
+}
