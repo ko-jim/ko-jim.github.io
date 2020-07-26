@@ -1,11 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>こんにちは</h1>
+    <nav>
+        <ul>
+            <a href="#link_title"><section>
+                <li>TOP</li>   
+            </section></a>
+            <a href="#link_sakuhin"><section>
+                <li>作品一覧</li>
+            </section></a>
+            <a href="#link_jiko"><section>
+                <li>自己紹介</li>
+            </section></a>
+        </ul>
+    </nav>
+
+    
+    <h1 id="link_title">Portofolio</h1>
+
+    <section class="name_flex">
+        <ul class="name">
+            <h2>こじまゆうき</h2>
+            <p>愛知工業大学</p>
+        </ul>
+    </section>
+
+    <h3 id="link_sakuhin" class="sakuhin">作品一覧</h3>
+
+    <section class="sakuhin_flex"> 
+        <img src="Logo.jpg">
+        <p>Adobe illustratorを使用、制作期間は3時間程度。<br>自身の名前をロゴにした。ツタをイメージした線になっている。<br>初めてイラストレーターで作った作品。</p>
+    </section>
+    <section class="sakuhin_flex">
+        <img src="pigeon.jpg">
+        <p>Adobe illustratorを使用、制作期間は3時間程度。<br>世界平和をイメージしたハトと地球儀を配置した。</p>
+    </section>
+    <section class="sakuhin_flex">
+        <img src="charactor.jpg">
+        <p>Adobe illustratorを使用、制作期間は3時間程度。<br>愛知工業大学のある学部をイメージして作ったマスコット。</p>
+    </section>
+
+    <h3 id="link_jiko" class="jikoshoukai">自己紹介</h3>
+
+        
+    <section class="flex_shoukai">
+        <img src="Logo.jpg">
+        <article>
+            <p>こじまゆうき</p>
+            <p>所属:愛知工業大学</p>
+            <p>趣味:読書</p>                
+            <p>スキル:C言語、Javascript、Adobe illustrator</p>
+            <p>コメント:</p>
+            <p>いろいろな知識やスキルを身に付けたいと思っています。　　　　　　　　　</p>
+        </article>    
+    </section>
 </body>
 </html>
