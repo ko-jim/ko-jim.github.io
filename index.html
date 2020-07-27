@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
     <nav>
@@ -60,5 +62,23 @@
             <p>いろいろな知識やスキルを身に付けたいと思っています。　　　　　　　　　</p>
         </article>    
     </section>
+
+    <script>
+        $(function(){
+             ScrollReveal().reveal('.name_flex',{delay:300,distance:'50px',origin:'right'});
+        });
+
+
+        $(function(){
+             ScrollReveal().reveal('.sakuhin_flex',{delay:300,distance:'50px',origin:'right'});
+        });
+
+        $(function(){
+             ScrollReveal().reveal('.flex_shoukai',{delay:300,distance:'50px',origin:'right'});
+        });
+    </script>
+    
+        
+  
 </body>
 </html>
